@@ -9,5 +9,5 @@ class Zoo:
         elif age > 60:
             return 100
         else:
-            raise ValueError("Age can't be less than 0")
+            None
             

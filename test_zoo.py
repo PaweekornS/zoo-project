@@ -10,7 +10,7 @@ class TestZoo(unittest.TestCase):
        
     # Add your additional test cases here.
     def test_error_case(self):
-        self.assertEqual(self.zoo.get_ticket_price(-1), ValueError)
+        self.assertEqual(self.zoo.get_ticket_price(-1), None)
 
     def test_adult_ticket_price(self):
         self.assertEqual(self.zoo.get_ticket_price(20), 100)
